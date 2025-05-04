@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT Mentor</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      direction: rtl;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header h1 {
+      margin: 0;
+    }
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+    .welcome {
+      font-size: 1.5em;
+      color: #333;
+    }
+    .category-boxes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px;
+      gap: 20px;
+    }
+    .box {
+      background-color: white;
+      border: 2px solid #2c3e50;
+      border-radius: 8px;
+      width: 250px;
+      padding: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .box:hover {
+      background-color: #2c3e50;
+      color: white;
+    }
+    a.box-link {
+      text-decoration: none;
+      color: inherit;
+    }
+    .box i {
+      font-size: 2em;
+      margin-bottom: 10px;
+      display: block;
+    }
+  </style>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+  <h1>    IT Mentor
+  </h1>
+  </header>
+  <main>
+    <p class="welcome">اختر نوع الخدمة</p>
+    <div class="category-boxes">
+      <a href="network.html" class="box-link"><div class="box"><i class="fas fa-network-wired"></i>الشبكات</div></a>
+      <a href="apps.html" class="box-link"><div class="box"><i class="fas fa-mobile-alt"></i>تطوير تطبيقات</div></a>
+      <a href="web.html" class="box-link"><div class="box"><i class="fas fa-globe"></i>تطوير الويب</div></a>
+      <a href="games.html" class="box-link"><div class="box"><i class="fas fa-gamepad"></i>تطوير ألعاب الحاسوب</div></a>
+      <a href="cyber.html" class="box-link"><div class="box"><i class="fas fa-shield-alt"></i>الأمن السيبراني</div></a>
+      <a href="database.html" class="box-link"><div class="box"><i class="fas fa-database"></i>قواعد البيانات</div></a>
+      <a href="ai.html" class="box-link"><div class="box"><i class="fas fa-robot"></i>الذكاء الاصطناعي</div></a>
+      <a href="robots.html" class="box-link"><div class="box"><i class="fas fa-microchip"></i>الروبوتات</div></a>
+      <a href="maintenance.html" class="box-link"><div class="box"><i class="fas fa-tools"></i>الصيانة</div></a>
+      <a href="support.html" class="box-link"><div class="box"><i class="fas fa-headset"></i>دعم فني</div></a>
+      <a href="itsoft.html" class="box-link"><div class="box"><i class="fas fa-desktop"></i>برامج IT</div></a>
+      <a href="services.html" class="box-link"><div class="box"><i class="fas fa-concierge-bell"></i>خدمات</div></a>
+    </div>
+  </main>
+</body>
+</html>
